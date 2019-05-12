@@ -1,5 +1,5 @@
 # Image Processing Unit
-- Işık Üniversitesi EE444 dersi için Embedded Systems konusu altında hazırlamış olduğumuz projemiz.
+- Işık Üniversitesi EE444 dersi Embedded Systems konusu kapsamında Dr.Ramazan Köprü hocamız eşliğinde hazırlamış olduğumuz projemiz.
 - Uygulamamızın Adı: Image Processing Unit
 - Projemizin prototip halidir. Projemizi geliştirmeye devam edip son kullanıcıya hazır hale getirmeye çalışacağız.
 - Ekipmanlarımızı özenle seçip hem maliyet hemde kullanış açısından yeterli bir seviyeye ulaştırma gayreti içerisindeyiz.
