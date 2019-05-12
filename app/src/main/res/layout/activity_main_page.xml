@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage">
+
+    <ImageView
+        android:id="@+id/anaimage"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/network" />
+
+    <LinearLayout
+        android:id="@+id/butons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/anaimage"
+        android:layout_marginTop="35dp">
+
+        <ImageButton
+            android:id="@+id/LiveStream"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/ic_elearning" />
+
+        <ImageButton
+            android:id="@+id/CarControl"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_car" />
+
+        <ImageButton
+            android:id="@+id/GasValue"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_flame" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/butons"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="8dp"
+        android:text="             What is Image Processing Unit?\nThe Image Processing Unit (IPU) is designed to support video and graphics processing functions and to interface with video and still image sensors and displays."
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "324621334539",
+    "firebase_url": "https://mqtt-ae036.firebaseio.com",
+    "project_id": "mqtt-ae036",
+    "storage_bucket": "mqtt-ae036.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324621334539:android:6fda5864470a4dd0",
+        "android_client_info": {
+          "package_name": "com.company.rashminpc.mqtttest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324621334539-li00li1d715r20380c84srbhb0lqdmkv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.rashminpc.mqtttest",
+            "certificate_hash": "c8cb908601a03f9a1e0f826023fe6da505976aa6"
+          }
+        },
+        {
+          "client_id": "324621334539-09vtrglm4ocrda3b2hnk3ag7omakcdun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt6GhSkpg7ZvPVyWUtCLxcw9wrN2pkpP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324621334539-09vtrglm4ocrda3b2hnk3ag7omakcdun.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

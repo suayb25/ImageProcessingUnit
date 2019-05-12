@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rel"
+    tools:context=".Image" >
+
+    <WebView
+        android:id="@+id/streamview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_capture"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_capture"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:text="RECOGNIZE"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

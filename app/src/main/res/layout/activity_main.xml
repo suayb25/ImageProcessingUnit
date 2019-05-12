@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.company.rashminpc.mqtttest.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/gaslinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/temp"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="monospace"
+            android:text="Gas Value at now"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="103dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="monospace"
+            android:text="...."
+            android:textSize="30sp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/gasList"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_below="@+id/gaslinear">
+    </ListView>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_below="@id/gasList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>
